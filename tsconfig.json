@@ -17,9 +17,10 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "types": ["vitest/importMeta", "node"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
